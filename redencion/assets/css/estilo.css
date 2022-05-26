@@ -1,0 +1,93 @@
+.card{
+    width: 100%;
+    max-width: 40rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.card{
+    width: 90%;
+    max-width: 400px;
+    padding: 5rem 2.5rem;
+    
+    border-radius: 1rem;
+    border: 1px solid transparent;
+
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+#fondo {
+    background: rgba(0, 0, 0, .1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+    color: white;
+}
+
+.form-control {
+    background: rgba(0, 0, 0, .3);
+    border-style: none;
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    background: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+.ingresar {
+    background: #222A3F;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700!important;
+    color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+    transition: 0.5s ease-in;
+}
+
+.ingresar:hover {
+    color: white;
+}
+
+.olvide {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+
+.olvide:hover {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.olvide1 {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: 700!important;
+    /* border: 2px solid white; */
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .5);
+}
+
+.olvide1:hover {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
